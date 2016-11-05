@@ -8,7 +8,7 @@ based on [thomsonreuters work](https://github.com/thomsonreuters/node_acl/blob/9
 Using npm:
 
 ```javascript
-npm install node_acl_elasticsearch
+npm install acl-elasticsearch
 ```
 
 ##Usage
