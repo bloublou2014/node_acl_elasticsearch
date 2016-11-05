@@ -1,0 +1,5 @@
+language: node_js
+
+# test on latest node.js
+node_js:
+  - current
