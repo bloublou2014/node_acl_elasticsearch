@@ -1,7 +1,7 @@
 #NODE ACL - Elasticsearch backend
 This fork adds Elasticsearch backend support to [NODE ACL](https://github.com/OptimalBits/node_acl)
 
-based on [thomsonreuters works](https://github.com/thomsonreuters/node_acl/blob/9afb7354532311d9d891042cafc5b69b9869f728/lib/elasticsearch-backend.js)
+based on [thomsonreuters work](https://github.com/thomsonreuters/node_acl/blob/9afb7354532311d9d891042cafc5b69b9869f728/lib/elasticsearch-backend.js)
 
 ##Installation
 
