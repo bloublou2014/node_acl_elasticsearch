@@ -8,9 +8,9 @@ describe('Elasticsearch', function () {
         var self = this;
         var options = {
             host: 'localhost:9200',
-            index: 'tests_node_acl'
+            index: 'tests_node_acl',
+           // log:'trace'
         };
-
         self.backend = new Acl.elasticsearchBackend(options);
         done();
     });

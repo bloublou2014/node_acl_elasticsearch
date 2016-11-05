@@ -31,7 +31,6 @@
     "require": true,
     "Chromath": false,
     "setImmediate": true,
-    "requirelib": true,
     "it": true,
     "describe": true,
     "before": true
