@@ -11,6 +11,8 @@ Using npm:
 npm install acl-elasticsearch
 ```
 
+This version is using a modified version of node_acl to provide general function to get all users, roles or parentRoles.
+
 ##Usage
 
 Create acl module by requiring it and instantiating it with Elasticsearch backend instance:
