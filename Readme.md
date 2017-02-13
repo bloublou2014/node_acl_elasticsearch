@@ -12,6 +12,7 @@ npm install acl-elasticsearch
 ```
 
 This version is using a modified version of node_acl to provide general function to get all users, roles or parentRoles.
+Version 0.2.0 includes elasticsearch 5.x support. 
 
 ##Usage
 
@@ -21,7 +22,7 @@ Create acl module by requiring it and instantiating it with Elasticsearch backen
 // require Elasticsearch and get instance to firebase path
 
 // require acl and create Firebase backend
-var acl = require('acl');
+let acl = require('acl');
 acl = new acl(new acl.elasticsearchBackend({
                                                host: 'localhost:9200',
                                                index: 'node_acl',
