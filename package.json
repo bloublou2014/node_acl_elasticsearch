@@ -1,6 +1,6 @@
 {
   "name": "acl-elasticsearch",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Elasticsearch backend for acl",
   "keywords": [
     "middleware",
@@ -12,18 +12,18 @@
   "author": "BlouBlou <bloublou2014@gmail.com>",
   "homepage": "https://github.com/bloublou2014/node_acl_elasticsearch",
   "engines": {
-    "node": ">= 0.4.1"
+    "node": ">= 7.0.0"
   },
   "main": "./index.js",
   "dependencies": {
     "acl": "github:bloublou2014/node_acl",
-    "async": "^2.1.2",
-    "elasticsearch": "^12.0.1",
-    "lodash": "^4.16.6"
+    "async": "^2.1.4",
+    "elasticsearch": "^12.1.3",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.1.2"
+    "mocha": "^3.2.0"
   },
   "scripts": {
     "test": "mocha test/runner.js --reporter spec",
