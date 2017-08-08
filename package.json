@@ -16,7 +16,7 @@
   },
   "main": "./index.js",
   "dependencies": {
-    "acl": "github:bloublou2014/node_acl",
+    "acl": "git+https://github:bloublou2014/node_acl",
     "async": "^2.1.4",
     "elasticsearch": "^12.1.3",
     "lodash": "^4.17.4"
